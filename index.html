@@ -9,15 +9,46 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles/basic.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/variables.css">
     <link rel="icon" href="assets/Favicon.png" type="image/png">
     <title>Alivio</title>
 </head>
 
 <body>
-    <svg>
-        <use href="assets/sprites.svg#logo-icon"></use>
-    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <svg class="logo" aria-label="logo">
+                    <use href="assets/sprites.svg#logo-icon"></use>
+                </svg>
+
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Why Alivio</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Solutions</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Community</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <button type="button" class="btn btn--signin">Sign in</button>
+                    <button type="button" class="btn">Start Trial</button>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
