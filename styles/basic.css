@@ -53,6 +53,6 @@ font-weight: 400;
     background-color: transparent;
     color: var(--co-black);
 }
- h1, h2, h3, h4, h5, h6, p {
+ h1, h2, h3, h4, h5, h6, p, figure {
     margin: 0;
  }
